@@ -23,6 +23,7 @@ table { border-collapse: collapse; border-spacing: 0;}
 
  body {
 	max-width: 960px;
+	margin-left: 1em;
  }
 
  div, section{
@@ -131,17 +132,19 @@ h1 styling of name in the header */
 /* Begin styling Connect Using section*/
 .connect { /* section placement */
 	float: left;
-	width: 380px;
+	width: 520px;
 	height: 200px;
-	margin: 40px 0 0 145px;
+	margin: 20px 0 30px 90px;
 	border-radius: 10px;
  }
 
  .icon { /* content */
-	width: 100px;
-	height: 100px;
+	width: 120px;
+	height: 50px;
 	float: left;
-	margin: .5em;
+	margin: 2em 1em 0 2em;
+
+
 }
 /* End of all Connect Using styling */
 
@@ -169,6 +172,7 @@ small {
 
 @media screen and (max-width: 940px) {
  
+
  div {
  	padding-bottom: 4em;
  }
@@ -183,8 +187,8 @@ small {
 }
 
  .connect { /* section placement */
-	width: 520px;
-	margin: 40px 0 0 180px;
+	width: 540px;
+	margin: 40px 0 0 190px;
 	border-radius: 10px;
 	}
  .aboutme { /* content and div placement */
@@ -195,26 +199,30 @@ small {
 	}
 
  .icon {
- 	width: 110px;
- 	margin: 1.5em;
+ 	width: 140px;
+ 	margin: 1.5em 0 1.5em 1.5em;
  }
 } 
 /*End of 940 query*/
 
 /* Begin 768 */
 @media screen and (max-width: 768px) {
- 
+
+ body {
+ 	margin: 0 0 0 0;
+ }
+
  h1{
  	margin-left: 60px;
  }
  .connect { /* section placement */
 	width: 510px;
-	margin-left: 45px;
+	margin-left: 60px;
 	border-radius: 10px;
  }
 
  .aboutme, .namestyle {
- 	margin-left: 30px;
+ 	margin-left: 60px;
  }
 
  nav {
@@ -228,7 +236,11 @@ small {
 @media screen and (max-width: 669px) {
 
  body {
- 	margin-left: 2em;
+ 	margin: 0 0 0 0;
+ }
+
+ h1 {
+ 	max-width: 668px;
  }
 
  p {
@@ -237,7 +249,7 @@ small {
 
  nav {
  	float: left;
- 	padding-left: 10px;
+ 	padding-left: 130px;
  }
 
  header {
@@ -245,15 +257,19 @@ small {
  	position: static;
  }
 
+ li {
+ 	padding: 0 20px 0 10px;
+ }
+
   .aboutme { /* section placement */
-	margin-left: 10px;
+	margin-left: 100px;
 	border-radius: 10px;
 	height: 300px;
 	width: 420px;
  }
 
  .connect { /* section placement */
-	margin-left: 10px;
+	margin-left: 100px;
 	border-radius: 10px;
 	height: 180px;
 	width: 420px;
@@ -261,23 +277,23 @@ small {
 
  .namestyle {
  	margin-left: 0;
- 	width: 560px;
+ 	width: 668px;
  }
 
  .icon {
- 	width: 60px;
+ 	width: 95px;
  	height: 60px;
- 	margin: 1em;
+ 	margin: 2em 0 0 2em;
  }
 
  .divider {
- 	width: 80%;
+ 	width: 83%;
  }
 
  .abt, .folio, .contact {
  	margin: 10px 10px 0 0;
  }
 }
-/*End of 640 query */
+/*End of 669 query */
 
 /* End of all media styling and CSS file */
