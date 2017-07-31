@@ -120,6 +120,15 @@ h1 styling of name in the header */
 
  }
 
+.iconPortfolio {
+	display: flex;
+	justify-content: space-around;
+	width: 120px;
+	height: 80px;
+	float: left;
+	margin: 2em 1em 0 2em;
+}
+
  img { /* picture */
 	float: left;
 	margin: 1px 20px 0 0;
