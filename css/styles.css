@@ -66,6 +66,15 @@ li {
 	font-size: 14pt;
  }
 
+/*section.aboutme.bkgrnd form input {
+	width: 25em;
+}
+
+section.aboutme.bkgrnd form textarea {
+	width: 25em;
+	height: 15em;
+}*/
+
 /* End of general element styling */
 
 /* Header content styling begins
@@ -157,6 +166,11 @@ h1 styling of name in the header */
 }
 /* End of all Connect Using styling */
 
+section.aboutme.bkgrnd form{
+	margin-left: 4em;
+	margin-bottom: inherit;
+}
+
 .bottom {
 	border-bottom: 6px solid #4aaaa5;
 }
@@ -183,7 +197,7 @@ small {
  
 
  div {
- 	padding-bottom: 4em;
+ 	padding-bottom: 3em;
  }
 
  p {
@@ -238,6 +252,15 @@ small {
  	float: left;
  	padding-left: 30px;
  }
+
+ section.aboutme.bkgrnd input {
+	 width: 25em;
+ }
+
+ section.aboutme.bkgrnd textarea {
+	 height: 8em;
+	 width: 25em;
+ }
 }
 /*End of 768 query*/
 
@@ -268,6 +291,15 @@ small {
 
  li {
  	padding: 0 20px 0 10px;
+ }
+
+ section.aboutme.bkgrnd form {
+	 margin-left: 4em;
+ }
+
+ section.aboutme.bkgrnd textarea {
+	 width: 25em;
+	 height: 8em;
  }
 
   .aboutme { /* section placement */
