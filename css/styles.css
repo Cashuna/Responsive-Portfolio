@@ -66,15 +66,6 @@ li {
 	font-size: 14pt;
  }
 
-/*section.aboutme.bkgrnd form input {
-	width: 25em;
-}
-
-section.aboutme.bkgrnd form textarea {
-	width: 25em;
-	height: 15em;
-}*/
-
 /* End of general element styling */
 
 /* Header content styling begins
@@ -349,5 +340,56 @@ small {
  }
 }
 /*End of 669 query */
+/*Begin 508 query */
+@media screen and (max-width: 508px) {
+	nav {
+		float: left;
+		padding-left: 80px;
+	}
+
+	div.aboutme.bkgrnd {
+		margin-left: 50px;
+	}
+
+	section.connect.bkgrnd {
+		margin-left: 50px;
+	}
+
+}
+/*End of 508 query */
+/*Begin 415 query */
+@media screen and (max-width: 415px) {
+	nav {
+		float: left;
+		padding-left: 80px;
+	}
+
+	div.aboutme.bkgrnd {
+		margin-left: 50px;
+	}
+
+	section.connect.bkgrnd {
+		margin-left: 50px;
+	}
+
+}
+/*End of 415 query */
+/*Begin 303 query */
+@media screen and (max-width: 303px) {
+	nav {
+		float: left;
+		padding-left: 80px;
+	}
+
+	div.aboutme.bkgrnd {
+		margin-left: 50px;
+	}
+
+	section.connect.bkgrnd {
+		margin-left: 50px;
+	}
+
+}
+/*End of 303 query */
 
 /* End of all media styling and CSS file */
