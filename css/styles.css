@@ -193,6 +193,19 @@ small {
 
 /*--------------Begin media query styles-----------------*/
 
+@media screen and (max-width: 1921px) {
+
+	section.aboutme.bkgrnd input {
+		width: 25em;
+	}
+
+	section.aboutme.bkgrnd textarea {
+		width: 25em;
+		height: 15em;
+	}
+}
+
+
 @media screen and (max-width: 940px) {
  
 
