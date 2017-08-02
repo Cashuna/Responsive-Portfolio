@@ -357,8 +357,8 @@ small {
 
 }
 /*End of 508 query */
-/*Begin 415 query */
-@media screen and (max-width: 415px) {
+/*Begin 439 query */
+@media screen and (max-width: 439px) {
 	.namestyle {
 		margin-left: 0;
 		width: 450px;
@@ -371,30 +371,66 @@ small {
 
 	div.aboutme.bkgrnd {
 		margin-left: 10px;
+		width: 390px;
 	}
 
 	section.connect.bkgrnd {
 		margin-left: 10px;
+		width: 390px;
 	}
 
 }
-/*End of 415 query */
-/*Begin 303 query */
-@media screen and (max-width: 303px) {
+/*End of 439 query */
+/*Begin 376 query */
+@media screen and (max-width: 376px) {
+	.namestyle {
+		margin-left: 0;
+		width: 385px;
+	}
+
 	nav {
 		float: none;
 		padding-right: 30px;
+		padding-left: 2em;
 	}
 
 	div.aboutme.bkgrnd {
 		margin-left: 10px;
+		width: 350px;
 	}
 
 	section.connect.bkgrnd {
 		margin-left: 10px;
+		width: 350px;
+	}
+
+	img.icon {
+		width: 70px;
+		height: 50px;
 	}
 
 }
-/*End of 303 query */
+/*End of 376 query */
+/*Begin 321 query */
+@media screen and (max-width: 321px) {
+	header {
+		width: 400px;
+	}
 
+	div.aboutme.bkgrnd {
+		margin-left: 10px;
+		width: 300px;
+	}
+
+	section.connect.bkgrnd {
+		margin-left: 10px;
+		width: 300px;
+	}
+
+	img.icon {
+		margin: 2em 0 0 1em;
+		width: 75px;
+	}
+}
+/*End of 321 query*/
 /* End of all media styling and CSS file */
