@@ -359,17 +359,22 @@ small {
 /*End of 508 query */
 /*Begin 415 query */
 @media screen and (max-width: 415px) {
+	.namestyle {
+		margin-left: 0;
+		width: 450px;
+	}
+
 	nav {
-		float: left;
-		padding-left: 80px;
+		float: none;
+		padding-right: 30px;
 	}
 
 	div.aboutme.bkgrnd {
-		margin-left: 50px;
+		margin-left: 10px;
 	}
 
 	section.connect.bkgrnd {
-		margin-left: 50px;
+		margin-left: 10px;
 	}
 
 }
@@ -377,16 +382,16 @@ small {
 /*Begin 303 query */
 @media screen and (max-width: 303px) {
 	nav {
-		float: left;
-		padding-left: 80px;
+		float: none;
+		padding-right: 30px;
 	}
 
 	div.aboutme.bkgrnd {
-		margin-left: 50px;
+		margin-left: 10px;
 	}
 
 	section.connect.bkgrnd {
-		margin-left: 50px;
+		margin-left: 10px;
 	}
 
 }
