@@ -22,8 +22,7 @@ table { border-collapse: collapse; border-spacing: 0;}
  }
 
  body {
-	max-width: 980px;
-	margin-left: 1em;
+	margin: 1em;
  }
 
  div, section{
